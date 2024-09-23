@@ -12,6 +12,17 @@ export const DrugSupplier = {
   DAFALGAN: Symbol("Dafalgan")
 }
 
+/**
+ ** @typedef {Object.<string, DrugSupplier>} DrugNameToSupplierMap
+ **
+ ** @type {DrugNameToSupplierMap}
+ **
+ ** @property {DrugSupplier} "Doliprane"
+ ** @property {DrugSupplier} "Herbal Tea"
+ ** @property {DrugSupplier} "Magic Pill"
+ ** @property {DrugSupplier} "Fervex"
+ ** @property {DrugSupplier} "Dafalgan"
+**/
 export const drugNameToSupplier = {
   "Doliprane": DrugSupplier.DOLIPRANE,
   "Herbal Tea": DrugSupplier.HERBAL_TEA,
