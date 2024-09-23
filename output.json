@@ -20,6 +20,11 @@
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": 19,
+        "benefit": 8
       }
     ],
     [
@@ -36,12 +41,17 @@
       {
         "name": "Fervex",
         "expiresIn": 10,
-        "benefit": 37
+        "benefit": 38
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": 18,
+        "benefit": 6
       }
     ],
     [
@@ -58,12 +68,17 @@
       {
         "name": "Fervex",
         "expiresIn": 9,
-        "benefit": 38
+        "benefit": 40
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": 17,
+        "benefit": 4
       }
     ],
     [
@@ -80,12 +95,17 @@
       {
         "name": "Fervex",
         "expiresIn": 8,
-        "benefit": 39
+        "benefit": 42
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": 16,
+        "benefit": 2
       }
     ],
     [
@@ -102,12 +122,17 @@
       {
         "name": "Fervex",
         "expiresIn": 7,
-        "benefit": 40
+        "benefit": 44
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": 15,
+        "benefit": 0
       }
     ],
     [
@@ -124,12 +149,17 @@
       {
         "name": "Fervex",
         "expiresIn": 6,
-        "benefit": 41
+        "benefit": 46
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": 14,
+        "benefit": 0
       }
     ],
     [
@@ -146,12 +176,17 @@
       {
         "name": "Fervex",
         "expiresIn": 5,
-        "benefit": 42
+        "benefit": 49
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": 13,
+        "benefit": 0
       }
     ],
     [
@@ -168,12 +203,17 @@
       {
         "name": "Fervex",
         "expiresIn": 4,
-        "benefit": 43
+        "benefit": 50
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": 12,
+        "benefit": 0
       }
     ],
     [
@@ -190,12 +230,17 @@
       {
         "name": "Fervex",
         "expiresIn": 3,
-        "benefit": 44
+        "benefit": 50
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": 11,
+        "benefit": 0
       }
     ],
     [
@@ -212,12 +257,17 @@
       {
         "name": "Fervex",
         "expiresIn": 2,
-        "benefit": 45
+        "benefit": 50
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": 10,
+        "benefit": 0
       }
     ],
     [
@@ -234,12 +284,17 @@
       {
         "name": "Fervex",
         "expiresIn": 1,
-        "benefit": 46
+        "benefit": 50
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": 9,
+        "benefit": 0
       }
     ],
     [
@@ -256,12 +311,17 @@
       {
         "name": "Fervex",
         "expiresIn": 0,
-        "benefit": 47
+        "benefit": 50
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": 8,
+        "benefit": 0
       }
     ],
     [
@@ -278,12 +338,17 @@
       {
         "name": "Fervex",
         "expiresIn": -1,
-        "benefit": 49
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": 7,
+        "benefit": 0
       }
     ],
     [
@@ -300,12 +365,17 @@
       {
         "name": "Fervex",
         "expiresIn": -2,
-        "benefit": 50
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": 6,
+        "benefit": 0
       }
     ],
     [
@@ -322,12 +392,17 @@
       {
         "name": "Fervex",
         "expiresIn": -3,
-        "benefit": 50
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": 5,
+        "benefit": 0
       }
     ],
     [
@@ -344,12 +419,17 @@
       {
         "name": "Fervex",
         "expiresIn": -4,
-        "benefit": 50
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": 4,
+        "benefit": 0
       }
     ],
     [
@@ -366,12 +446,17 @@
       {
         "name": "Fervex",
         "expiresIn": -5,
-        "benefit": 50
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": 3,
+        "benefit": 0
       }
     ],
     [
@@ -388,12 +473,17 @@
       {
         "name": "Fervex",
         "expiresIn": -6,
-        "benefit": 50
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": 2,
+        "benefit": 0
       }
     ],
     [
@@ -410,12 +500,17 @@
       {
         "name": "Fervex",
         "expiresIn": -7,
-        "benefit": 50
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": 1,
+        "benefit": 0
       }
     ],
     [
@@ -432,12 +527,17 @@
       {
         "name": "Fervex",
         "expiresIn": -8,
-        "benefit": 50
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": 0,
+        "benefit": 0
       }
     ],
     [
@@ -454,12 +554,17 @@
       {
         "name": "Fervex",
         "expiresIn": -9,
-        "benefit": 50
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": -1,
+        "benefit": 0
       }
     ],
     [
@@ -476,12 +581,17 @@
       {
         "name": "Fervex",
         "expiresIn": -10,
-        "benefit": 50
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": -2,
+        "benefit": 0
       }
     ],
     [
@@ -498,12 +608,17 @@
       {
         "name": "Fervex",
         "expiresIn": -11,
-        "benefit": 50
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": -3,
+        "benefit": 0
       }
     ],
     [
@@ -520,12 +635,17 @@
       {
         "name": "Fervex",
         "expiresIn": -12,
-        "benefit": 50
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": -4,
+        "benefit": 0
       }
     ],
     [
@@ -542,12 +662,17 @@
       {
         "name": "Fervex",
         "expiresIn": -13,
-        "benefit": 50
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": -5,
+        "benefit": 0
       }
     ],
     [
@@ -564,12 +689,17 @@
       {
         "name": "Fervex",
         "expiresIn": -14,
-        "benefit": 50
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": -6,
+        "benefit": 0
       }
     ],
     [
@@ -586,12 +716,17 @@
       {
         "name": "Fervex",
         "expiresIn": -15,
-        "benefit": 50
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": -7,
+        "benefit": 0
       }
     ],
     [
@@ -608,12 +743,17 @@
       {
         "name": "Fervex",
         "expiresIn": -16,
-        "benefit": 50
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": -8,
+        "benefit": 0
       }
     ],
     [
@@ -630,12 +770,17 @@
       {
         "name": "Fervex",
         "expiresIn": -17,
-        "benefit": 50
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": -9,
+        "benefit": 0
       }
     ],
     [
@@ -652,12 +797,17 @@
       {
         "name": "Fervex",
         "expiresIn": -18,
-        "benefit": 50
+        "benefit": 0
       },
       {
         "name": "Magic Pill",
         "expiresIn": 15,
         "benefit": 40
+      },
+      {
+        "name": "Dafalgan",
+        "expiresIn": -10,
+        "benefit": 0
       }
     ]
   ]

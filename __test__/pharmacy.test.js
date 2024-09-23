@@ -10,11 +10,11 @@ describe("Pharmacy", () => {
   it("should handle 'Dafalgan' degradation correctly", () => {
     const pharmacy = new Pharmacy([new Drug("Dafalgan", 2, 20)]);
     pharmacy.updateBenefitValue();
-    expect(pharmacy.drugs).toEqual([new Drug("Dafalgan", 1, 19)]);
+    expect(pharmacy.drugs).toEqual([new Drug("Dafalgan", 1, 18)]);
     pharmacy.updateBenefitValue(); // Day 2
-    expect(pharmacy.drugs).toEqual([new Drug("Dafalgan", 0, 18)]);
+    expect(pharmacy.drugs).toEqual([new Drug("Dafalgan", 0, 16)]);
     pharmacy.updateBenefitValue(); // Day 3
-    expect(pharmacy.drugs).toEqual([new Drug("Dafalgan", -1, 16)]); // 2x degradation after expiration
+    expect(pharmacy.drugs).toEqual([new Drug("Dafalgan", -1, 12)]);
   });
 
   it("should update 'Herbal Tea' benefit correctly", () => {
@@ -23,9 +23,13 @@ describe("Pharmacy", () => {
     expect(pharmacy.drugs).toEqual([new Drug("Herbal Tea", 4, 11)]);
     pharmacy.updateBenefitValue();
     expect(pharmacy.drugs).toEqual([new Drug("Herbal Tea", 3, 12)]);
-    pharmacy.updateBenefitValue(); // After expiration
-    expect(pharmacy.drugs).toEqual([new Drug("Herbal Tea", 2, 14)]); // Increase twice as fast
   });
+
+  it("should update 'Herbal Tea' twice faster", () => {
+    const pharmacy = new Pharmacy([new Drug("Herbal Tea", -1, 10)])
+    pharmacy.updateBenefitValue();
+    expect(pharmacy.drugs).toEqual([new Drug("Herbal Tea", -2, 12)])
+  })
 
   it("should update 'Fervex' benefit correctly", () => {
     const pharmacy = new Pharmacy([new Drug("Fervex", 11, 10)]);
@@ -37,7 +41,7 @@ describe("Pharmacy", () => {
 
   it("should handle 'Magic Pill' correctly", () => {
     const pharmacy = new Pharmacy([new Drug("Magic Pill", 0, 40)]);
-    pharmacy.updateBenefitValue(); // Benefit and expiration remain unchanged
+    pharmacy.updateBenefitValue();
     expect(pharmacy.drugs).toEqual([new Drug("Magic Pill", 0, 40)]);
   });
 });
@@ -51,7 +55,7 @@ describe("Drugs", () => {
 
     it("should not allow benefit to go below 0", () => {
       const drug = new Drug("simpleDrug", -1, 2);
-      drug.updateBenefit(-3); // Should not drop below 0
+      drug.updateBenefit(-3);
       expect(drug).toEqual(new Drug("simpleDrug", -1, 0));
     });
 
