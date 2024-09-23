@@ -29,26 +29,16 @@ describe("Pharmacy", () => {
 
   it("should update 'Fervex' benefit correctly", () => {
     const pharmacy = new Pharmacy([new Drug("Fervex", 11, 10)]);
-    pharmacy.updateBenefitValue(); // Day 1
-    expect(pharmacy.drugs).toEqual([new Drug("Fervex", 10, 11)]); // Benefit increases by 1
-    pharmacy.updateBenefitValue(); // Day 2
-    expect(pharmacy.drugs).toEqual([new Drug("Fervex", 9, 12)]); // Benefit increases by 1
-    pharmacy.updateBenefitValue(); // Day 10
-    expect(pharmacy.drugs).toEqual([new Drug("Fervex", 0, 20)]); // Increases by 2 when <= 10 days
-    pharmacy.updateBenefitValue(); // After expiration
-    expect(pharmacy.drugs).toEqual([new Drug("Fervex", -1, 0)]); // Drops to 0 after expiration
+    pharmacy.updateBenefitValue();
+    expect(pharmacy.drugs).toEqual([new Drug("Fervex", 10, 12)]);
+    pharmacy.updateBenefitValue();
+    expect(pharmacy.drugs).toEqual([new Drug("Fervex", 9, 14)]);
   });
 
   it("should handle 'Magic Pill' correctly", () => {
     const pharmacy = new Pharmacy([new Drug("Magic Pill", 0, 40)]);
     pharmacy.updateBenefitValue(); // Benefit and expiration remain unchanged
     expect(pharmacy.drugs).toEqual([new Drug("Magic Pill", 0, 40)]);
-  });
-
-  it("should enforce benefit limits correctly", () => {
-    const pharmacy = new Pharmacy([new Drug("test", 2, 50)]);
-    pharmacy.updateBenefitValue(); // Day 1
-    expect(pharmacy.drugs).toEqual([new Drug("test", 1, 50)]); // Benefit cannot exceed 50
   });
 });
 

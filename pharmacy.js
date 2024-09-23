@@ -94,23 +94,32 @@ class Fervex extends Drug {
   }
   updateBenefitFactor() {
     const { degradationFactor } = DrugSettings[this.name];
+    const baseFactor = Math.abs(degradationFactor);
+    if (this.expiresIn < 0) baseFactor * 2;
 
     // i'll set statics value if time
     const benefitUpdates = [
       { condition: () => this.expiresIn < 0, action: () => this.benefit = 0 },
-      { condition: () => this.expiresIn <= 5, action: () => this.updateBenefit(degradationFactor * 3) },
-      { condition: () => this.expiresIn <= 10, action: () => this.updateBenefit(degradationFactor * 2) },
-      { condition: () => true, action: () => this.updateBenefit(degradationFactor) }
+      { condition: () => this.expiresIn <= 5, action: () => this.updateBenefit(baseFactor * 3) },
+      { condition: () => this.expiresIn <= 10, action: () => this.updateBenefit(baseFactor * 2) },
+      { condition: () => true, action: () => this.updateBenefit(baseFactor) }
     ];
 
     const { action } = benefitUpdates.find(update => update.condition()) || {};
     action();
+    console.log(this.benefit);
   }
 }
 
 class Dafalgan extends Drug {
   constructor(expiresIn, benefit) {
     super(DrugSupplier.DAFALGAN.description, expiresIn, benefit)
+  }
+
+  updateBenefitFactor() {
+    const { degradationFactor } = DrugSettings[this.name];
+    const updatedFactor = this.expiresIn < 0 ? degradationFactor * 2 : degradationFactor;
+    this.updateBenefit(updatedFactor);
   }
 }
 
